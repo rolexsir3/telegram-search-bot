@@ -30,7 +30,7 @@ SITES = [
      "selector": "ul.mw-search-results li.mw-search-result .mw-search-result-heading a"},
     {"name": "IMDb", "url": "https://www.imdb.com/find/?q={q}"},
     {"name": "GitHub", "url": "https://github.com/search?q={q}&type=repositories"},
-    {"name": "YouTube", "url": "https://www.youtube.com/results?search_query={q}"},
+    {"name": "Simpcity", "url": "https://simpcity.cr/results?search_query={q}"},
     {"name": "Reddit", "url": "https://www.reddit.com/search/?q={q}"},
 ]
 
