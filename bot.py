@@ -28,7 +28,7 @@ ALLOWED_USERS = {int(x) for x in os.getenv("ALLOWED_USERS", "").split(",") if x.
 SITES = [
     {"name": "Wikipedia", "url": "https://en.wikipedia.org/w/index.php?search={q}",
      "selector": "ul.mw-search-results li.mw-search-result .mw-search-result-heading a"},
-    {"name": "IMDb", "url": "https://www.imdb.com/find/?q={q}"},
+    {"name": "dropmms", "url": "https://dropmms.com/search/?q={q}&quick=1&type=forums_topic"},
     {"name": "GitHub", "url": "https://github.com/search?q={q}&type=repositories"},
     {"name": "Simpcity", "url": "https://simpcity.cr/results?search_query={q}"},
     {"name": "Reddit", "url": "https://www.reddit.com/search/?q={q}"},
